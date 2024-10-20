@@ -1,0 +1,17 @@
+c language
+c is not a object oriented langauge
+Extention c/c++ in vs code
+install compiler gcc compiler
+ MinGW-w64 website
+ control panel -  secutiry - system - advacne - envir - path -C:\Users\athre\Downloads\mingw-w64-v11.0.0\mingw64\bin
+
+
+
+command to run
+
+for windows
+gcc -o helloworld.exe helloworld.c
+ ./helloworld.exe
+
+linus 
+gcc helloworld.c  ./a.out
