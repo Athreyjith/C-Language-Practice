@@ -1,6 +1,5 @@
 #include<stdio.h>
 #include <stdbool.h>  // required for boolean  -  This header defines the bool type
-
 int main()
 {
     int x ; // declaration
@@ -17,7 +16,7 @@ int main()
     bool ti = true;  //- %d    true =1 and false = 0
     short int s =34769 ; // 2 bytes  range (-32768 to 32768)   %d
     unsigned short int  ss =500;// 2 bytes  range (65535)    %d
-
+    const int hat = 10;   // value cannot be changed
 
     printf(" i am %d years old \n", age);   
     printf(" first letter is %c\n",name);
@@ -25,12 +24,9 @@ int main()
     printf("my name is %s\n",name1);
     printf("my 2nd percentage is %0.2f\n",num);
     printf(" this is %d\n", ti);
-
     printf("small aplha is %c\n",alpha1);  // it will convert to number to alpha
-     printf("small aplha is %c\n",qq);
-
-
-     printf(" this is the %d\n", s);
-      printf(" this is the %d", ss);
+    printf("small aplha is %c\n",qq);
+    printf(" this is the %d\n", s);
+    printf(" this is the %d", ss);
     return 0;
 }
